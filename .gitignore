@@ -1,0 +1,17 @@
+# 依赖与构建产物
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# 本地环境
+.env
+
+# 产物 / 日志 / 截图（测试产物统一放 test-artifacts/）
+var/
+*.log
+*.png
+TESTING.md
+tests/
